@@ -1,0 +1,25 @@
+.heading
+{
+font-size: 30px;
+width: 100%;
+margin: 0px;
+}
+
+#status,#objects_no
+{
+font-size: 18px;
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+canvas {
+ border:teal solid 5px;
+ animation:Example;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+@keyframes Example{
+    from{box-shadow:5px 5px 30px 20px turquoise}
+    to{box-shadow:5px 5px 30px 20px black}
+}
